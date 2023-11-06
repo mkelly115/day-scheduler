@@ -15,11 +15,23 @@ $(document).ready (function () {
     localStorage.setItem(hour, write)
     console.log(write)
    })
-
-   
-
   },
+
+
   
+// CURRENT PROJECT BELOW - FIGURE OUT TIME LOOP TO ADDRESS COLORS
+  function timeLoop (){
+    currentTime = dayjs().hour()
+    if (currentTime === ){
+
+    }
+  },
+
+/// Can use Parse Integer, parseInt() to allow an integer from a string or ID (so i can make a number)
+/// need to figure out how to seperate all of the IDS
+ 
+  
+
   $("#hour-9 .description").val(localStorage.getItem("hour-9")),
   $("#hour-10 .description").val(localStorage.getItem("hour-10")),
   $("#hour-11 .description").val(localStorage.getItem("hour-11")),
@@ -32,6 +44,8 @@ $(document).ready (function () {
 
   ); 
 
+timeLoop()
+
 // Above is the working save button modification
 
 
@@ -43,7 +57,6 @@ $(document).ready (function () {
     // useful when saving the description in local storage?
     //
 
-    localStorage.setItem('textarea-text', $('#textarea').val());
 
 
 
