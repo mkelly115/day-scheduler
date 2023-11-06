@@ -36,7 +36,7 @@ $(document).ready(function () {
     console.log(write)
   })
 
-// Grabs saved User input on the page load to its coresponding text-area
+// Below: Grabs saved User input on the page load to its coresponding text-area
 
   $("#9 .description").val(localStorage.getItem("9")),
   $("#10 .description").val(localStorage.getItem("10")),

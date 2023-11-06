@@ -1,101 +1,17 @@
 # day-scheduler
 
-# 05 Third-Party APIs: Work Day Scheduler
+The purpose of this project was to allow a user to save important notes corresponding to hours in a 9 to 5 workday. The user will be able to see the current date on the top of the page, and the app alters CSS colors to make important tasks more easily identifiable.
 
-## Your Task
+##Usage
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+When the user has clicked the save button, the text area will be saved to local storage for further use. Under the hood, using JS, Jquery, and Day.JS, the user is able to have their hours color coded based on the current time. Current time will show as red, past will show gray, and future will come in as green. The top of the scheduler will also feature the current date. All of the users input is stored locally and can be called to the page as long as the user does not clear it. The user can delete and click save to empty out an hours text slot.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+##Conclusion
 
-## User Story
+In conclusion, I've found that with this project, some things are starting to "click" more and become easier to decipher as needed. I feel much more confident using online resources such as MDN, documents for jquery, days.JS, and W3 schools. The save button came fairly intuitively to me after our past classes, but the process of figuring out how to identify the ID of each text area and comparing it to the current time took alot of research and workshopping to make work. Eventually I found it easier to actually identify the class of todo within each, in conjuction with renaming the ID's to just numbers to make it easier to compare the time to a simple number. I'm still not 100% on the concepts behind it and will be taking extra time and care to understand not just that the code works but WHY it works.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+#Live Link
 
-## Acceptance Criteria
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+#Licensing
+MIT License within
